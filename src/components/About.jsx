@@ -9,7 +9,7 @@ function About() {
             <div className="w-full h-full flex">
                 <div className="px-10 h-full">
                     <img
-                        src="../src/assets/me.jpg"
+                        src={myPhoto}
                         alt="profile_photo"
                         className="rounded-xl shadow-xl shadow-gray-800"
                     />
