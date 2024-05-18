@@ -21,7 +21,7 @@ function Achievement() {
         },
         {
             id: 2,
-            img: "//assets/designHead-DFe2F459.png",
+            img: "/assets/designHead-DFe2F459.png",
             name: "Design Head : Sochem(Society of Chemical Engineers), IIT (BHU) Varanasi",
             url: "https://www.instagram.com/p/CwVGby3su3K/?igsh=MWJlOTF6dXhndDV0cQ%3D%3D&img_index=4",
             description: [
