@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 function About() {
     // console.log(myPhoto);
     return (
-        <div className="h-screen w-full bg-black px-10 py-5 text-white mt-5">
-            <div className="w-full h-full flex">
-                <div className="px-10 h-full">
+        <div className="h-full w-full bg-black sm:px-10 px-5 py-5 text-white mt-5">
+            <div className="w-full h-full flex flex-col lg:flex-row">
+                <div className="sm:px-10 h-full">
                     <img
                         src={myPhoto}
                         alt="profile_photo"
                         className="rounded-xl shadow-xl shadow-gray-800"
                     />
                 </div>
-                <div className="px-10 h-full w-full flex flex-col items-start ">
-                    <p className="font-Font2 tracking-widest text-md py-5 leading-8 text-justify">
+                <div className="sm:px-10 h-full w-full flex py-8 lg:py-0 flex-col items-start ">
+                    <p className="font-Font2 tracking-widest text-md  leading-8 text-justify">
                         <span className="text-xl ">Hi, </span> I am a 3rd year
                         undergraduate student at IIT (BHU) Varanasi. I am a
                         dedicated developer with skills in website development,
@@ -26,10 +26,10 @@ function About() {
                         outside the box and contribute to my personal growth.
                     </p>
 
-                    <p className="text-xl font-semibold">
+                    <p className="text-xl font-semibold py-5">
                         You can also visit my Profile: <br />
                     </p>
-                    <div className="flex gap-5 mt-5">
+                    <div className="flex flex-col justify-center sm:justify-start w-full text-center sm:flex-row gap-5 mt-5">
                         <Link
                             to={"https://github.com/anuukriti"}
                             target="_blank"
@@ -53,7 +53,7 @@ function About() {
                         </Link>
                     </div>
 
-                    <p className="text-xl mt-5">
+                    <p className="sm:text-xl mt-5">
                         My email:{" "}
                         <span className=" font-medium">
                             anukriti.student.che21@itbhu.ac.in
