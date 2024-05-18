@@ -1,11 +1,16 @@
 import React from "react";
 import { Card } from "./Card";
+import todoAppImg from "../assets/todoApp.png";
+import spotifyCloneImg from "../assets/spotifyClone.png";
+import currencyConverterImg from "../assets/currencyConverter.png";
+import passwordGenImg from "../assets/passwordGenAPP.png";
+import weatherAppImg from "../assets/weatherForcastApp.png";
 
 function Work() {
     const projects = [
         {
             id: 1,
-            projectImg: "/src/assets/todoApp.png",
+            projectImg: { todoAppImg },
             projectName: "TodoApp",
             skill: ["React", "Tailwind CSS", "JavaScript", "react-router-dom"],
             description: [
@@ -16,7 +21,7 @@ function Work() {
         },
         {
             id: 2,
-            projectImg: "/src/assets/spotifyClone.png",
+            projectImg: { spotifyCloneImg },
             projectName: "Spotify Clone",
             skill: ["React", "Tailwind CSS", "JavaScript", "Spotify API"],
             description: [
@@ -28,7 +33,7 @@ function Work() {
         },
         {
             id: 3,
-            projectImg: "/src/assets/weatherForcastApp.png",
+            projectImg: { weatherAppImg },
             projectName: "Weather Forcast App",
             skill: ["HTML", "CSS", "JavaScript", "API"],
             description: [
@@ -39,7 +44,7 @@ function Work() {
         },
         {
             id: 4,
-            projectImg: "/src/assets/currencyConverter.png",
+            projectImg: { currencyConverterImg },
             projectName: "Currency Converter App",
             skill: ["React", "Tailwind CSS", "JavaScript", "API", "Algorithm"],
             description: [
@@ -50,7 +55,7 @@ function Work() {
         },
         {
             id: 5,
-            projectImg: "/src/assets/passwordGenAPP.png",
+            projectImg: { passwordGenImg },
             projectName: "Random Password Generator",
             skill: ["React", "Tailwind CSS", "JavaScript", "Algorithm"],
             description: [

@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export function Card({ Img, Name, skill = [], description = [], url }) {
+    // console.log(Img);
     return (
         <div className="flex w-full flex-col py-5 px-5 h-auto items-center shadow-xl shadow-black rounded-2xl  border border-slate-700 md:flex-row my-5 mx-5 bg-fuchsia-950/30">
             <div className="h-[250px] w-[400px]">

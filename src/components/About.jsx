@@ -3,12 +3,13 @@ import myPhoto from "../assets/me.jpg";
 import { Link } from "react-router-dom";
 
 function About() {
+    console.log(myPhoto);
     return (
         <div className="h-screen w-full bg-black px-10 py-5 text-white mt-5">
             <div className="w-full h-full flex">
                 <div className="px-10 h-full">
                     <img
-                        src={myPhoto}
+                        src="/src/assets/me.jpg"
                         alt="profile_photo"
                         className="rounded-xl shadow-xl shadow-gray-800"
                     />
