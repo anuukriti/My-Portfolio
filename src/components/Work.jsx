@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "./Card";
+import todoApp from "../assets/todoApp.png";
 import weatherForcastApp from "../assets/weatherForcastApp.png";
 import spotifyCloneImg from "../assets/spotifyClone.png";
 import passwordGenAPP from "../assets/passwordGenAPP.png";
@@ -7,6 +8,7 @@ import currencyConverter from "../assets/currencyConverter.png";
 
 function Work() {
     console.log("weatherForcastApp ", weatherForcastApp);
+    console.log("todoApp ", todoApp);
     console.log("spotifyCloneImg ", spotifyCloneImg);
     console.log("passwordGenAPP ", passwordGenAPP);
     console.log("currencyConverter ", currencyConverter);
