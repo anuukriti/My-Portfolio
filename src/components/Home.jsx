@@ -34,9 +34,12 @@ function Home() {
                         and create outside the box and contribute to my personal
                         growth.
                     </h3>
-                    <button className="text-white bg-fuchsia-700 font-sans font-bold hover:bg-fuchsia-500 transition-all ease-in-out border rounded-xl ml-5 mt-6 text-center px-5 py-3">
+                    <Link
+                        to={"./work"}
+                        className="text-white bg-fuchsia-700 font-sans font-bold hover:bg-fuchsia-500 transition-all ease-in-out border rounded-xl ml-5 mt-6 text-center px-5 py-3"
+                    >
                         My Works
-                    </button>
+                    </Link>
                     <div className="lg:px-20 sm:mt-16 mt-8 lg:py-10 text-white w-full h-auto md:mt-[200px] flex md:justify-end justify-center text-center md:text-right">
                         <ul className="md:flex md:justify-center lg:justify-end gap-5 md:gap-10 text-sm md:text-xl w-full md:text-md lg:text-2xl mb-5 h-auto">
                             <Link
