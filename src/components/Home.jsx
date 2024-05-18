@@ -33,7 +33,13 @@ function Home() {
                         taking on challenging tasks that encourage me to think
                         and create outside the box and contribute to my personal
                         growth.
+                        <span className="text-fuchsia-400 font-semibold">
+                            {" "}
+                            I am looking for internship opportunities. Please
+                            take a moment to review my profile and contact me.
+                        </span>
                     </h3>
+
                     <div className=" w-full gap-2 h-auto flex flex-col sm:flex-row sm:ml-5 justify-center px-5 sm:px-0 sm:justify-start text-sm md:text-md">
                         <Link
                             to={"./work"}
@@ -81,7 +87,7 @@ function Home() {
                                 Resume
                             </Link>
                             <Link
-                                to={"./About"}
+                                to={"mailto:anukriti.student.che21@itbhu.ac"}
                                 target="_blank"
                                 className="md:bg-none rounded-xl py-3 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-b-2 border-t cursor-pointer transition-all ease-in-out"
                             >
