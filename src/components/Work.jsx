@@ -72,7 +72,7 @@ function Work() {
             <div className="h-auto w-full mb-5 flex item-center justify-center text-center text-2xl font-Font1 font-semibold">
                 <h1>Projects</h1>
             </div>
-            <div className="h-full w-full overflow-y-scroll overflow-x-hidden px-10">
+            <div className="h-full w-full overflow-y-scroll overflow-x-hidden sm:px-10">
                 {projects.map((p) => (
                     <Card
                         key={p.id}

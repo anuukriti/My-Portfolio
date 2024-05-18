@@ -45,7 +45,7 @@ function Achievement() {
                 <div className="h-auto w-full mb-5 flex item-center justify-center text-center text-2xl font-Font1 font-semibold">
                     <h1>Achievements</h1>
                 </div>
-                <div className="h-full w-full overflow-y-scroll overflow-x-hidden md:px-10">
+                <div className="h-full w-full overflow-y-scroll overflow-x-hidden sm:px-10">
                     {achievement.map((a) => (
                         <Card
                             key={a.id}
