@@ -1,5 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {
+    HomeIcon,
+    BriefcaseBusiness,
+    TrophyIcon,
+    BookText,
+} from "lucide-react";
 
 function Navbar() {
     return (
@@ -12,10 +18,11 @@ function Navbar() {
                             isActive
                                 ? "text-fuchsia-500 border-gray-100"
                                 : "text-white"
-                        }   text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer w-[50px] text-center justify-center`
+                        }   text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer sm:w-[50px] text-center justify-center`
                     }
                 >
-                    Work
+                    <p className="hidden sm:block">Work</p>
+                    <BriefcaseBusiness className="sm:hidden h-5 hover:text-fuchsia-500 transition-all ease-in-out" />
                 </NavLink>
                 <NavLink
                     to={
@@ -26,7 +33,8 @@ function Navbar() {
                         `  text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer`
                     }
                 >
-                    Resume
+                    <p className="hidden sm:block">Resume</p>
+                    <BookText className="sm:hidden h-5 hover:text-fuchsia-500 transition-all ease-in-out" />
                 </NavLink>
                 <NavLink
                     to={"./Achievement"}
@@ -35,10 +43,11 @@ function Navbar() {
                             isActive
                                 ? "text-fuchsia-500  border-gray-100"
                                 : "text-white"
-                        }   text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer w-[100px] text-center justify-center`
+                        }   text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer sm:w-[100px] text-center justify-center`
                     }
                 >
-                    Achievement
+                    <p className="hidden sm:block">Achievements</p>
+                    <TrophyIcon className="sm:hidden h-5 hover:text-fuchsia-500 transition-all ease-in-out" />
                 </NavLink>
                 <NavLink
                     to={"/About"}
@@ -63,7 +72,7 @@ function Navbar() {
                     } text-sm h-full flex items-center justify-center  px-2 text-white hover:text-fuchsia-500 cursor-pointer`
                 }
             >
-                Home
+                <HomeIcon className="h-5 sm:h-9 hover:text-fuchsia-500 transition-all ease-in-out" />
             </NavLink>
         </div>
     );
