@@ -41,18 +41,21 @@ function Home() {
                         <ul className="md:flex md:justify-center lg:justify-end gap-5 md:gap-10 text-sm md:text-xl w-full md:text-md lg:text-2xl mb-5 h-auto">
                             <Link
                                 to={"https://github.com/anuukriti"}
+                                target="_blank"
                                 className="md:bg-none rounded-xl py-2 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-t-2 border-b cursor-pointer transition-all ease-in-out"
                             >
                                 Github
                             </Link>
                             <Link
                                 to={"https://www.linkedin.com/in/anukriti9/"}
+                                target="_blank"
                                 className="md:bg-none rounded-xl py-2 sm:py-4 hover:bg-fuchsia-500/50 border-fuchsia-950/70 md:hover:text-fuchsia-500 md:hover:bg-transparent  md:border-none border-y-2 cursor-pointer transition-all ease-in-out"
                             >
                                 LinkedIn
                             </Link>
                             <Link
                                 to={"https://dribbble.com/Kritianu"}
+                                target="_blank"
                                 className="md:bg-none rounded-xl py-2 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-y cursor-pointer transition-all ease-in-out"
                             >
                                 Dribbble
@@ -61,12 +64,14 @@ function Home() {
                                 to={
                                     "https://drive.google.com/file/d/1YCDyoJVPyT2FYkFjk_X3V-N18EzeP-qY/view?usp=sharing"
                                 }
+                                target="_blank"
                                 className="md:bg-none rounded-xl py-2 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-y-2 cursor-pointer transition-all ease-in-out"
                             >
                                 Resume
                             </Link>
                             <Link
                                 to={"./About"}
+                                target="_blank"
                                 className="md:bg-none rounded-xl py-2 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-b-2 border-t cursor-pointer transition-all ease-in-out"
                             >
                                 Contact

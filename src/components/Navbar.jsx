@@ -21,6 +21,7 @@ function Navbar() {
                     to={
                         "https://drive.google.com/file/d/1YCDyoJVPyT2FYkFjk_X3V-N18EzeP-qY/view?usp=sharing"
                     }
+                    target="_blank"
                     className={({ isActive }) =>
                         `  text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer`
                     }
