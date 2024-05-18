@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Card({ Img, Name, skill = [], description = [], url }) {
     // console.log(Img);
     return (
-        <div className="flex w-full flex-col sm:flex-row sm:py-5 md:px-5 h-auto items-center shadow-xl shadow-black rounded-2xl  border border-slate-700 md:flex-row my-5 sm:mx-5 bg-fuchsia-950/30">
+        <div className="flex w-full flex-col  sm:py-5 md:px-5 h-auto items-center shadow-xl shadow-black rounded-2xl  border border-slate-700 md:flex-row my-5 sm:mx-5 bg-fuchsia-950/30">
             <div className="sm:h-[250px] sm:w-[400px] h-full px-2 py-2 w-full flex justify-center sm:block">
                 <Link to={url} target="_blank">
                     <img

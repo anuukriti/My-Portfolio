@@ -18,6 +18,9 @@ function Navbar() {
                     Work
                 </NavLink>
                 <NavLink
+                    to={
+                        "https://drive.google.com/file/d/1YCDyoJVPyT2FYkFjk_X3V-N18EzeP-qY/view?usp=sharing"
+                    }
                     className={({ isActive }) =>
                         `  text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer`
                     }
