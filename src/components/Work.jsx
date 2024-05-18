@@ -7,12 +7,6 @@ import passwordGenAPP from "../assets/passwordGenAPP.png";
 import currencyConverter from "../assets/currencyConverter.png";
 
 function Work() {
-    console.log("weatherForcastApp ", weatherForcastApp);
-    console.log("todoApp ", todoApp);
-    console.log("spotifyCloneImg ", spotifyCloneImg);
-    console.log("passwordGenAPP ", passwordGenAPP);
-    console.log("currencyConverter ", currencyConverter);
-
     const projects = [
         {
             id: 1,

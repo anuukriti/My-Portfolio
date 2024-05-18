@@ -1,8 +1,14 @@
 import React from "react";
 import { Card } from "./Card";
 import serviceNow from "../assets/serviceNow.png";
+import aagman from "../assets/aagman.png";
+import designHead from "../assets/designHead.png";
 
 function Achievement() {
+    console.log("serviceNow", serviceNow);
+    console.log("aagman", aagman);
+    console.log("designHead", designHead);
+
     const achievement = [
         {
             id: 1,
