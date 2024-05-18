@@ -3,12 +3,12 @@ import { Card } from "./Card";
 import todoAppImg from "../assets/todoApp.png";
 
 function Work() {
-    console.log(todoAppImg);
+    console.log("url ", todoAppImg);
 
     const projects = [
         {
             id: 1,
-            projectImg: "../src/assets/todoApp.png",
+            projectImg: "/assets/todoApp-B5KeKsFU.png",
             projectName: "TodoApp",
             skill: ["React", "Tailwind CSS", "JavaScript", "react-router-dom"],
             description: [
