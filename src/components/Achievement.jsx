@@ -12,7 +12,7 @@ function Achievement() {
     const achievement = [
         {
             id: 1,
-            img: "/src/assets/serviceNow.png",
+            img: "/assets/serviceNow-PlWDgHGM.png",
             name: "ServiceNow Women Code to Win 2024 - India",
             url: "https://unstop.com/competitions/servicenow-women-code-to-win-2024-india-servicenow-838054/coding-challenge/123929",
             description: [
@@ -21,7 +21,7 @@ function Achievement() {
         },
         {
             id: 2,
-            img: "/src/assets/designHead.png",
+            img: "/assets/serviceNow-PlWDgHGM.png",
             name: "Design Head : Sochem(Society of Chemical Engineers), IIT (BHU) Varanasi",
             url: "https://www.instagram.com/p/CwVGby3su3K/?igsh=MWJlOTF6dXhndDV0cQ%3D%3D&img_index=4",
             description: [
@@ -30,7 +30,7 @@ function Achievement() {
         },
         {
             id: 3,
-            img: "/src/assets/aagman.png",
+            img: "/assets/aagman-BaaAgQHo.png",
             name: "Aagman 2022 : 1st Position",
             url: "https://www.instagram.com/p/CaPVF-bsQT9/",
             description: [
