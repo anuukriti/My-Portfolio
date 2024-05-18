@@ -27,7 +27,7 @@ function About() {
                     </p>
 
                     <p className="font-Font1 tracking-widest text-md  leading-8 text-justify py-5">
-                        I have good amount experience working with frontend
+                        I have good amount of experience working with frontend
                         technology including React.js, tailwind CSS and
                         JavaScript.
                         <span className="text-fuchsia-400 font-semibold">
