@@ -25,7 +25,7 @@ function Work() {
         },
         {
             id: 2,
-            projectImg: "../src/assets/spotifyClone.png",
+            projectImg: "/assets/spotifyClone-ztsnvg1k.png",
             projectName: "Spotify Clone",
             skill: ["React", "Tailwind CSS", "JavaScript", "Spotify API"],
             description: [
@@ -37,7 +37,7 @@ function Work() {
         },
         {
             id: 3,
-            projectImg: "../src/assets/weatherForcastApp.png",
+            projectImg: "/assets/weatherForcastApp-DPEVdu-I.png",
             projectName: "Weather Forcast App",
             skill: ["HTML", "CSS", "JavaScript", "API"],
             description: [
@@ -48,7 +48,7 @@ function Work() {
         },
         {
             id: 4,
-            projectImg: "../src/assets/currencyConverter.png",
+            projectImg: "/assets/currencyConverter-G9Ih2jra.png",
             projectName: "Currency Converter App",
             skill: ["React", "Tailwind CSS", "JavaScript", "API", "Algorithm"],
             description: [
@@ -59,7 +59,7 @@ function Work() {
         },
         {
             id: 5,
-            projectImg: "../src/assets/passwordGenAPP.png",
+            projectImg: "/assets/passwordGenAPP-lS9ADBlJ.png",
             projectName: "Random Password Generator",
             skill: ["React", "Tailwind CSS", "JavaScript", "Algorithm"],
             description: [
