@@ -3,6 +3,8 @@ import { Card } from "./Card";
 import todoAppImg from "../assets/todoApp.png";
 
 function Work() {
+    console.log(todoAppImg);
+
     const projects = [
         {
             id: 1,
