@@ -6,7 +6,7 @@ import passwordGenAPP from "../assets/passwordGenAPP.png";
 import currencyConverter from "../assets/currencyConverter.png";
 
 function Work() {
-    console.log("weatherForcastApp ", todoAppImg);
+    console.log("weatherForcastApp ", weatherForcastApp);
     console.log("spotifyCloneImg ", spotifyCloneImg);
     console.log("passwordGenAPP ", passwordGenAPP);
     console.log("currencyConverter ", currencyConverter);
