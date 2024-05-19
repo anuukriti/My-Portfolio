@@ -5,6 +5,7 @@ import {
     BriefcaseBusiness,
     TrophyIcon,
     BookText,
+    CircleUser
 } from "lucide-react";
 
 function Navbar() {
@@ -26,7 +27,7 @@ function Navbar() {
                 </NavLink>
                 <NavLink
                     to={
-                        "https://drive.google.com/file/d/1YCDyoJVPyT2FYkFjk_X3V-N18EzeP-qY/view?usp=sharing"
+                        "https://drive.google.com/file/d/1WfEGRBhxLCenYzbGr5ocVt2U1buTEXaf/view?usp=sharing"
                     }
                     target="_blank"
                     className={({ isActive }) =>
@@ -56,10 +57,11 @@ function Navbar() {
                             isActive
                                 ? "text-fuchsia-500  border-gray-100"
                                 : "text-white"
-                        } hidden text-sm h-full sm:flex items-center  hover:text-fuchsia-500 cursor-pointer w-[80px] text-center justify-center`
+                        }  text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer w-[80px] text-center justify-center`
                     }
                 >
-                    About me
+                    <p className="hidden sm:block">About me</p>
+                    <CircleUser className="sm:hidden h-5 hover:text-fuchsia-500 transition-all ease-in-out" />
                 </NavLink>
             </ul>
             <NavLink
