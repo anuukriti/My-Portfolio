@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
     return (
-        <div className="bg-black h-screen w-full">
+        <div className="bg-black h-full w-full">
             <Navbar />
             <Outlet />
             <Footer />
