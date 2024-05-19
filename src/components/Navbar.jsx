@@ -57,7 +57,7 @@ function Navbar() {
                             isActive
                                 ? "text-fuchsia-500  border-gray-100"
                                 : "text-white"
-                        }  text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer w-[80px] text-center justify-center`
+                        }  text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer sm:w-[80px] text-center justify-center`
                     }
                 >
                     <p className="hidden sm:block">About me</p>
