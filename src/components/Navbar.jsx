@@ -68,9 +68,8 @@ function Navbar() {
                 to={"/"}
                 className={({ isActive }) =>
                     `${
-                        isActive
-                            ? "text-fuchsia-500  border-gray-100"
-                            : "text-white"
+                        !isActive ? "text-white" : "text-fuchsia-500  border-gray-100"
+                            
                     } text-sm h-full flex items-center justify-center  px-2 text-white hover:text-fuchsia-500 cursor-pointer`
                 }
             >

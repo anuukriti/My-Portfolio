@@ -19,10 +19,11 @@ function Home() {
                 <div className="h-full w-full bg-black md:bg-black/50 p-4 pl-2 sm:pl-10 sm:pt-10">
                     <h1 className=" text-white lg:h-auto h-[120px] text-3xl sm:text-5xl font-serif sm:mt-10 ml-5">
                         Hi, I am <br className="lg:hidden" />
-                        <span className="font-semibold cursor-pointer font-Font1 hover:text-fuchsia-400 transition-all ease-in-out text-fuchsia-500">
+                        <Link to={"./About"} ><span className="font-semibold cursor-pointer font-Font1 hover:text-fuchsia-400 transition-all ease-in-out text-fuchsia-500">
                             {" "}
                             {text}
                         </span>
+                        </Link>
                         <Cursor />
                     </h1>
                     <h3 className="text-white font-sans mb-10 pl-5 lg:pt-5  text-justify text-sm sm:text-md w-full pr-5 md:w-[90%] lg:w-[60%] xl:w-[40%] tracking-wider">
