@@ -27,7 +27,7 @@ function Home() {
                         <Cursor />
                     </h1>
                     <h3 className="text-white font-sans mb-10 pl-5 lg:pt-5  text-justify text-sm sm:text-md w-full pr-5 md:w-[90%] lg:w-[60%] xl:w-[40%] tracking-wider">
-                        Welcome to my Portfolio, I am a 3rd year undergraduate
+                        Welcome to my Portfolio, I am Anukriti, a 3rd year undergraduate
                         student at IIT (BHU) Varanasi. With a unique blend of
                         technical expertise and creative flair, I enjoy
                         designing graphics and developing websites. I enjoy
