@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function About() {
     // console.log(myPhoto);
     return (
-        <div className=" h-full w-full bg-black sm:px-10 px-5 py-5 text-white mt-5">
+        <div className=" h-auto w-full bg-black sm:px-10 px-5 py-5 text-white mt-5">
             <div className="w-full h-full flex flex-col lg:flex-row">
                 <div className="sm:px-10 h-full">
                     <img
@@ -16,21 +16,19 @@ function About() {
                 </div>
                 <div className="sm:px-10 h-auto w-full flex py-8 lg:py-0 flex-col items-start ">
                     <p className="font-Font1 tracking-widest text-md  leading-8 text-justify">
-                        <span className="text-2xl ">Hi,</span> <br /> I am final
-                        year undergraduate student at IIT (BHU) Varanasi. I am currently working as a UI/UX desiginer and as a frontened engineer at charan enterprises. I have deep interest in website development,
+                        <span className="text-4xl ">Hi,</span> <br />  I am final
+                        year undergraduate student at IIT (BHU) Varanasi. I am currently working as a <span className="text-fuchsia-400">UI/UX desiginer </span> and as a <span className="text-fuchsia-400">frontened engineer </span>at charan enterprises and mentorify respectively. I have deep interest in website development,
                         UI/UX desigining, graphic design, and software development. I
-                        work as a design head in the Society of Chemical
-                        Engineering (SoChem) in IIT BHU. I enjoy taking on
+                        also work as a design head in the Society of Chemical
+                        Engineering (SoChem) in IIT BHU. <br /><br />I enjoy taking on
                         challenging tasks that encourage me to think and create
                         outside the box and contribute to my personal growth.
                     </p>
 
-                    <p className="font-Font1 tracking-widest text-md  leading-8 text-justify py-5">
+                    <p className="text-fuchsia-400 font-semibold font-Font1 tracking-widest text-md  leading-8 text-justify py-5">
                         
-                        <span className="text-fuchsia-400 font-semibold">
-                            {" "}
                             I am open to new opportunities. Please review my profile and feel free to contact me.
-                        </span>
+                        
                     </p>
 
                     <div className="flex flex-col justify-center sm:justify-start w-full text-center sm:flex-row gap-5 mt-5">

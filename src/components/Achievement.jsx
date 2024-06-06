@@ -40,7 +40,7 @@ function Achievement() {
     ];
 
     return (
-        <div className="h-screen text-white w-full bg-[url('https://i.pinimg.com/564x/c5/a9/9f/c5a99f8c1bdb92e3cd54464d3b1b3bf6.jpg')] bg-repeat-round">
+        <div className="h-auto text-white w-full bg-[url('https://i.pinimg.com/564x/c5/a9/9f/c5a99f8c1bdb92e3cd54464d3b1b3bf6.jpg')] bg-repeat-round">
             <div className="h-full w-full px-10 py-10 bg-black/50">
                 <div className="h-auto w-full mb-5 flex item-center justify-center text-center text-2xl font-Font1 font-semibold">
                     <h1>Achievements</h1>

@@ -68,7 +68,7 @@ function Work() {
 
     console.log(projects[0].projectImg);
     return (
-        <div className="h-screen text-white w-full bg-[url('https://i.pinimg.com/564x/0f/52/26/0f5226c06adec25af88c2ed830a44f84.jpg')] px-10 py-10 bg-repeat-round">
+        <div className="h-auto text-white w-full bg-[url('https://i.pinimg.com/564x/0f/52/26/0f5226c06adec25af88c2ed830a44f84.jpg')] px-10 py-10 bg-repeat-round">
             <div className="h-auto w-full mb-5 flex item-center justify-center text-center text-2xl font-Font1 font-semibold">
                 <h1>Projects</h1>
             </div>
