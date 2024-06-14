@@ -1,4 +1,4 @@
-# My Portdilio
+# My Portfolio
 
 ## Tech Stack used
 <h3>React</h3>
