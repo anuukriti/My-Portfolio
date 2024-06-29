@@ -80,7 +80,7 @@ function Home() {
                             </Link>
                             <Link
                                 to={
-                                    "https://drive.google.com/file/d/1WfEGRBhxLCenYzbGr5ocVt2U1buTEXaf/view?usp=sharing"
+                                    "https://drive.google.com/file/d/1NPKsPi848xDH6c3pnPLD_gXNwJlgZJFC/view?usp=sharing"
                                 }
                                 target="_blank"
                                 className="md:bg-none rounded-xl py-3 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-y-2 cursor-pointer transition-all ease-in-out"
