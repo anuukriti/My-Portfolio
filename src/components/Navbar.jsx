@@ -27,7 +27,7 @@ function Navbar() {
                 </NavLink>
                 <NavLink
                     to={
-                        "https://drive.google.com/file/d/1WfEGRBhxLCenYzbGr5ocVt2U1buTEXaf/view?usp=sharing"
+                        "https://drive.google.com/file/d/1NPKsPi848xDH6c3pnPLD_gXNwJlgZJFC/view?usp=sharing"
                     }
                     target="_blank"
                     className={({ isActive }) =>
