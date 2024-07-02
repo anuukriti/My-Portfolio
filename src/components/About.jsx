@@ -17,21 +17,62 @@ function About() {
                 <div className="sm:px-10 h-auto w-full flex py-8 lg:py-0 flex-col items-start ">
                     <p className="font-Font1 tracking-widest text-md  leading-8 text-justify">
                         <span className="text-4xl ">Hi,</span> <br />  I am final
-                        year undergraduate student at IIT (BHU) Varanasi. I am currently working as a <span className="text-fuchsia-400">UI/UX desiginer </span> and as a <span className="text-fuchsia-400">frontened engineer </span>at charan enterprises and mentorify respectively. I have deep interest in website development,
+                        year undergraduate student at IIT (BHU) Varanasi.<span className="text-fuchsia-400"> I am currently working as a UI/UX desiginer and as a frontened engineer at charan enterprises </span>. I have deep interest in website development,
                         UI/UX desigining, graphic design, and software development. I
                         also work as a design head in the Society of Chemical
                         Engineering (SoChem) in IIT BHU. <br /><br />I enjoy taking on
                         challenging tasks that encourage me to think and create
-                        outside the box and contribute to my personal growth.
+                        outside the box and contribute to my personal growth. <span className="text-fuchsia-400 font-semibold">I am open to new opportunities. Please review my profile and feel free to contact me.</span>
                     </p>
 
                     <p className="text-fuchsia-400 font-semibold font-Font1 tracking-widest text-md  leading-8 text-justify py-5">
                         
-                            I am open to new opportunities. Please review my profile and feel free to contact me.
-                        
+                            My Top Skills: 
                     </p>
+                    <div>
+                        <ul className="flex flex-col flex-wrap justify-center sm:justify-start w-full text-center sm:flex-row gap-5" >
+                        <li
+                            className="py-2 border-2 border-transparent cursor-pointer hover:border-white bg-blue-400 hover:bg-fuchsia-300 transition-all ease-linear rounded-2xl px-5 text-fuchsia-950 font-bold p-2"
+                        >
+                            React JS
+                        </li>
 
-                    <div className="flex flex-col justify-center sm:justify-start w-full text-center sm:flex-row gap-5 mt-5">
+                        <li
+                            className="py-2 border-2 border-transparent cursor-pointer hover:border-white bg-blue-400 hover:bg-fuchsia-300 transition-all ease-linear rounded-2xl px-5 text-fuchsia-950 font-bold p-2"
+                        >
+                            Tailwind CSS
+                        </li>
+
+                        <li
+                            className="py-2 border-2 border-transparent cursor-pointer hover:border-white bg-blue-400 hover:bg-fuchsia-300 transition-all ease-linear rounded-2xl px-5 text-fuchsia-950 font-bold p-2"
+                        >
+                            JavaScript
+                        </li>
+
+                        <li
+                            className="py-2 border-2 border-transparent cursor-pointer hover:border-white bg-blue-400 hover:bg-fuchsia-300 transition-all ease-linear rounded-2xl px-5 text-fuchsia-950 font-bold p-2"
+                        >
+                            Appwrite
+                        </li>
+
+                        <li
+                            className="py-2 border-2 border-transparent cursor-pointer hover:border-white bg-blue-400 hover:bg-fuchsia-300 transition-all ease-linear rounded-2xl px-5 text-fuchsia-950 font-bold p-2"
+                        >
+                            Figma
+                        </li>
+                        <li
+                            className="py-2 border-2 border-transparent cursor-pointer hover:border-white bg-blue-400 hover:bg-fuchsia-300 transition-all ease-linear rounded-2xl px-5 text-fuchsia-950 font-bold p-2"
+                        >
+                            Adobe Illustrator
+                        </li>
+                        </ul>
+                    </div>
+
+                    <p className="text-fuchsia-400 font-semibold font-Font1 tracking-widest text-md  leading-8 text-justify py-5">
+                        
+                            My Social Links: 
+                    </p>
+                    <div className="flex flex-col justify-center sm:justify-start w-full text-center sm:flex-row gap-5">
                         <Link
                             to={"https://github.com/anuukriti"}
                             target="_blank"
