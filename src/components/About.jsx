@@ -17,7 +17,7 @@ function About() {
                 <div className="sm:px-10 h-auto w-full flex py-8 lg:py-0 flex-col items-start ">
                     <p className="font-Font1 tracking-widest text-md  leading-8 text-justify">
                         <span className="text-4xl ">Hi,</span> <br />  I am final
-                        year undergraduate student at IIT (BHU) Varanasi.<span className="text-fuchsia-400"> I am currently working as a UI/UX desiginer and as a frontened engineer at charan enterprises </span>. I have deep interest in website development,
+                        year undergraduate student at IIT (BHU) Varanasi.<span className="text-fuchsia-400 font-semibold"> I am currently working as a UI/UX desiginer and as a frontened engineer at charan enterprises </span>. I have deep interest in website development,
                         UI/UX desigining, graphic design, and software development. I
                         also work as a design head in the Society of Chemical
                         Engineering (SoChem) in IIT BHU. <br /><br />I enjoy taking on
