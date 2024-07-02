@@ -14,7 +14,7 @@ function Home() {
     });
 
     return (
-        <div className="w-full h-full bg-black">
+        <div className="w-full h-screen bg-black">
             <div className="w-full  h-full bg-[url('./assets/bg-black.jpg')] bg-center bg-contain">
                 <div className="h-full w-full bg-black md:bg-black/50 p-4 pl-2 sm:pl-10 sm:pt-10">
                     <h1 className=" text-white lg:h-auto h-[120px] text-3xl sm:text-5xl font-serif sm:mt-10 ml-5">
@@ -30,7 +30,7 @@ function Home() {
                         Welcome to my Portfolio, I am Anukriti, a final-year undergraduate
                         student at IIT (BHU) Varanasi. With a unique blend of
                         technical expertise and creative flair, I enjoy
-                        designing graphics and developing websites.
+                        designing graphics, wireframing, and developing websites.
                         <span className="text-fuchsia-400 font-semibold">
                             {" "}
                            I am a UI/UX Designer and Frontend Engineer at Charan Enterprises. I am also available for freelancing opportunities.
