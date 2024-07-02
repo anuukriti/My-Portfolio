@@ -8,7 +8,7 @@ import serviceNow from "../assets/serviceNow.png";
 function Achievement() {
     console.log("GSSOC", GSSOC);
     console.log("aagman", aagman);
-    console.log("designHead", designHead);
+    console.log("designHead", designed);
     console.log("serviceNow", serviceNow);
 
     const achievement = [
