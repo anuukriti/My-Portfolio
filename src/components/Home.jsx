@@ -27,17 +27,13 @@ function Home() {
                         <Cursor />
                     </h1>
                     <h3 className="text-white font-sans mb-10 pl-5 lg:pt-5  text-justify text-sm sm:text-md w-full pr-5 md:w-[90%] lg:w-[60%] xl:w-[40%] tracking-wider">
-                        Welcome to my Portfolio, I am Anukriti, a 3rd year undergraduate
+                        Welcome to my Portfolio, I am Anukriti, a final-year undergraduate
                         student at IIT (BHU) Varanasi. With a unique blend of
                         technical expertise and creative flair, I enjoy
-                        designing graphics and developing websites. I enjoy
-                        taking on challenging tasks that encourage me to think
-                        and create outside the box and contribute to my personal
-                        growth.
+                        designing graphics and developing websites.
                         <span className="text-fuchsia-400 font-semibold">
                             {" "}
-                            I am looking for internship opportunities. Please
-                            take a moment to review my profile and contact me.
+                           I am a UI/UX Designer and Frontend Engineer at Charan Enterprises. I am also available for freelancing opportunities.
                         </span>
                     </h3>
 
