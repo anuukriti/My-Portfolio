@@ -10,7 +10,7 @@ function Achievement() {
     const achievement = [
         {
             id: 1,
-            // img: "/assets/serviceNow-PlWDgHGM.png",
+            img: "/assets/GSSOC-C3fClvt1.png",
             name: "GirlScript summer of code | Contributor",
             url: "https://gssoc.girlscript.tech/leaderboard",
             description: [
