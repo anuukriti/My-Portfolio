@@ -1,11 +1,15 @@
 import React from "react";
 import { Card } from "./Card";
 import GSSOC from "../assets/GSSOC.png";
+import aagman from "../assets/aagman.png";
+import designed from "../assets/designHead.png";
+import serviceNow from "../assets/serviceNow.png";
 
 function Achievement() {
     console.log("GSSOC", GSSOC);
-    // console.log("aagman", aagman);
-    // console.log("designHead", designHead);
+    console.log("aagman", aagman);
+    console.log("designHead", designHead);
+    console.log("serviceNow", serviceNow);
 
     const achievement = [
         {
