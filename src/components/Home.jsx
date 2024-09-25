@@ -14,7 +14,7 @@ function Home() {
     });
 
     return (
-        <div className="w-full h-full bg-black">
+        <div className="w-full h-screen bg-black">
             <div className="w-full  h-full bg-[url('./assets/bg-black.jpg')] bg-center bg-contain">
                 <div className="h-full w-full bg-black md:bg-black/50 p-4 pl-2 sm:pl-10 sm:pt-10">
                     <h1 className=" text-white lg:h-auto h-[120px] text-3xl sm:text-5xl font-serif sm:mt-10 ml-5">
@@ -27,17 +27,13 @@ function Home() {
                         <Cursor />
                     </h1>
                     <h3 className="text-white font-sans mb-10 pl-5 lg:pt-5  text-justify text-sm sm:text-md w-full pr-5 md:w-[90%] lg:w-[60%] xl:w-[40%] tracking-wider">
-                        Welcome to my Portfolio, I am Anukriti, a 3rd year undergraduate
+                        Welcome to my Portfolio, I am Anukriti, a final-year undergraduate
                         student at IIT (BHU) Varanasi. With a unique blend of
                         technical expertise and creative flair, I enjoy
-                        designing graphics and developing websites. I enjoy
-                        taking on challenging tasks that encourage me to think
-                        and create outside the box and contribute to my personal
-                        growth.
+                        designing graphics, wireframing, and developing websites.
                         <span className="text-fuchsia-400 font-semibold">
                             {" "}
-                            I am looking for internship opportunities. Please
-                            take a moment to review my profile and contact me.
+                           I am a UI/UX Designer and Frontend Engineer at Charan Enterprises. I am also available for freelancing opportunities.
                         </span>
                     </h3>
 
@@ -80,7 +76,7 @@ function Home() {
                             </Link>
                             <Link
                                 to={
-                                    "https://drive.google.com/file/d/1WfEGRBhxLCenYzbGr5ocVt2U1buTEXaf/view?usp=sharing"
+                                    "https://drive.google.com/file/d/1NPKsPi848xDH6c3pnPLD_gXNwJlgZJFC/view?usp=sharing"
                                 }
                                 target="_blank"
                                 className="md:bg-none rounded-xl py-3 sm:py-4 hover:bg-fuchsia-500/50 md:hover:bg-transparent md:hover:text-fuchsia-500 border-fuchsia-950/70  md:border-none border-y-2 cursor-pointer transition-all ease-in-out"

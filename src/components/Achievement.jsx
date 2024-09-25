@@ -1,17 +1,28 @@
 import React from "react";
 import { Card } from "./Card";
-import serviceNow from "../assets/serviceNow.png";
+import GSSOC from "../assets/GSSOC.png";
 import aagman from "../assets/aagman.png";
-import designHead from "../assets/designHead.png";
+import designed from "../assets/designHead.png";
+import serviceNow from "../assets/serviceNow.png";
 
 function Achievement() {
-    console.log("serviceNow", serviceNow);
+    console.log("GSSOC", GSSOC);
     console.log("aagman", aagman);
-    console.log("designHead", designHead);
+    console.log("designHead", designed);
+    console.log("serviceNow", serviceNow);
 
     const achievement = [
         {
             id: 1,
+            img: "/assets/GSSOC-C3fClvt1.png",
+            name: "GirlScript summer of code | Contributor",
+            url: "https://gssoc.girlscript.tech/leaderboard",
+            description: [
+                " Selected as a contributor in GirlScript Summer of Code 2024.",
+            ],
+        },
+        {
+            id: 2,
             img: "/assets/serviceNow-PlWDgHGM.png",
             name: "ServiceNow Women Code to Win 2024 - India",
             url: "https://unstop.com/competitions/servicenow-women-code-to-win-2024-india-servicenow-838054/coding-challenge/123929",
@@ -20,7 +31,7 @@ function Achievement() {
             ],
         },
         {
-            id: 2,
+            id: 3,
             img: "/assets/designHead-DFe2F459.png",
             name: "Design Head : Sochem(Society of Chemical Engineers), IIT (BHU) Varanasi",
             url: "https://www.instagram.com/p/CwVGby3su3K/?igsh=MWJlOTF6dXhndDV0cQ%3D%3D&img_index=4",
@@ -29,7 +40,7 @@ function Achievement() {
             ],
         },
         {
-            id: 3,
+            id: 4,
             img: "/assets/aagman-BaaAgQHo.png",
             name: "Aagman 2022 : 1st Position",
             url: "https://www.instagram.com/p/CaPVF-bsQT9/",
