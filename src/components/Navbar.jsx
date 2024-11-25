@@ -22,7 +22,7 @@ function Navbar() {
                         }   text-sm h-full flex items-center  hover:text-fuchsia-500 cursor-pointer sm:w-[50px] text-center justify-center`
                     }
                 >
-                    <p className="hidden sm:block">My Projects</p>
+                    <p className="hidden sm:block">Projects</p>
                     <BriefcaseBusiness className="sm:hidden h-5 hover:text-fuchsia-500 transition-all ease-in-out" />
                 </NavLink>
                 <NavLink
