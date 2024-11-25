@@ -1,13 +1,36 @@
 import React from "react";
 import { Card } from "./Card";
-import todoApp from "../assets/todoApp.png";
-import weatherForcastApp from "../assets/weatherForcastApp.png";
-import spotifyCloneImg from "../assets/spotifyClone.png";
-import passwordGenAPP from "../assets/passwordGenAPP.png";
-import currencyConverter from "../assets/currencyConverter.png";
+import shoppingappimg from "../assets/ecommerceShopping.png";
+import pathFinderImg from "../assets/pathFinder.png";
+
+console.log(shoppingappimg);
+console.log(pathFinderImg);
 
 function Work() {
     const projects = [
+        {
+            id: 6,
+            projectImg: "/assets/todoApp-B5KeKsFU.png",
+            projectName: "E-commerce Web Application",
+            skill: ["React.js", "Redux", "Firebase", "Razorpay"],
+            description: [
+                "Built a full-stack e-commerce web application with role-based access control for admins and users.",
+                "Implemented product search, filtering, carousel, and pagination for streamlined content management.",
+                "Used Firebase for authentication and data storage, and integrated Razorpay for payment processing.",
+            ],
+            url: "https://kreteria-shopping-hub.vercel.app/",
+        },
+        {
+            id: 7,
+            projectImg: "/assets/todoApp-B5KeKsFU.png",
+            projectName: "Shortest Path Finding Visualizer",
+            skill: ["HTML", "JavaScript", "Algorithms"],
+            description: [
+                "Implemented A*, Dijkstra’s, and BFS algorithms to visualize the shortest path with obstacles in the grid.",
+                "Developed features for users to set start/end points and place obstacles, enhancing control and pathfinding accuracy.",
+            ],
+            url: "https://paathfinder.netlify.app/",
+        },
         {
             id: 1,
             projectImg: "/assets/todoApp-B5KeKsFU.png",
