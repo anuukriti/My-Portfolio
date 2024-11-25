@@ -9,7 +9,7 @@ import shoppingappimg from "../assets/ecommerceShopping.png";
 import pathFinderImg from "../assets/pathFinder.png";
 
 
-function MyProjects() {
+function Work() {
     const projects = [
         {
             id: 6,
