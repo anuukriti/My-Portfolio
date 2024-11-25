@@ -33,7 +33,7 @@ function Home() {
                         designing graphics, wireframing, and developing websites.
                         <span className="text-fuchsia-400 font-semibold">
                             {" "}
-                           I am a UI/UX Designer and Frontend Engineer at Charan Enterprises. I am also available for freelancing opportunities.
+                           I worked as UI/UX Designer and Frontend Engineer at Charan Enterprises. I am also available for freelancing opportunities.
                         </span>
                     </h3>
 
