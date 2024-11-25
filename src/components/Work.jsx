@@ -10,7 +10,7 @@ function Work() {
     const projects = [
         {
             id: 6,
-            projectImg: "/assets/todoApp-B5KeKsFU.png",
+            projectImg: "/assets/ecommerceShopping-DPlLdj53.png",
             projectName: "E-commerce Web Application",
             skill: ["React.js", "Redux", "Firebase", "Razorpay"],
             description: [
@@ -22,7 +22,7 @@ function Work() {
         },
         {
             id: 7,
-            projectImg: "/assets/todoApp-B5KeKsFU.png",
+            projectImg: "/assets/pathFinder-B575lzCa.png",
             projectName: "Shortest Path Finding Visualizer",
             skill: ["HTML", "JavaScript", "Algorithms"],
             description: [
