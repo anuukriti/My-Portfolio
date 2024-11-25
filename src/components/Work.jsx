@@ -1,10 +1,13 @@
 import React from "react";
 import { Card } from "./Card";
+import todoApp from "../assets/todoApp.png";
+import weatherForcastApp from "../assets/weatherForcastApp.png";
+import spotifyCloneImg from "../assets/spotifyClone.png";
+import passwordGenAPP from "../assets/passwordGenAPP.png";
+import currencyConverter from "../assets/currencyConverter.png";
 import shoppingappimg from "../assets/ecommerceShopping.png";
 import pathFinderImg from "../assets/pathFinder.png";
 
-console.log(shoppingappimg);
-console.log(pathFinderImg);
 
 function Work() {
     const projects = [
