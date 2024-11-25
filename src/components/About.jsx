@@ -17,10 +17,8 @@ function About() {
                 <div className="sm:px-10 h-auto w-full flex py-8 lg:py-0 flex-col items-start ">
                     <p className="font-Font1 tracking-widest text-md  leading-8 text-justify">
                         <span className="text-4xl ">Hi,</span> <br />  I am final
-                        year undergraduate student at IIT (BHU) Varanasi.<span className="text-fuchsia-400 "> I am currently working as a UI/UX desiginer and as a frontened engineer at charan enterprises </span>. I have deep interest in website development,
-                        UI/UX desigining, graphic design, and software development. I
-                        also work as a design head in the Society of Chemical
-                        Engineering (SoChem) in IIT BHU. <br /><br />I enjoy taking on
+                        year undergraduate student at IIT (BHU) Varanasi.<span className="text-fuchsia-400 "> I have hands-on experience as a UI/UX Designer and Frontend Engineer at Charan Enterprises, as well as serving as the Design Head for the Society of Chemical Engineering (SoChem) at IIT BHU. </span>. I have deep interest in website development,
+                        UI/UX desigining, graphic design, and software development.<br /><br />I enjoy taking on
                         challenging tasks that encourage me to think and create
                         outside the box and contribute to my personal growth. <span className="text-fuchsia-400 font-semibold">I am open to new opportunities. Please review my profile and feel free to contact me.</span>
                     </p>
