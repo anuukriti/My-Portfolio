@@ -39,10 +39,10 @@ function Home() {
 
                     <div className=" w-full gap-2 h-auto flex flex-col sm:flex-row sm:ml-5 justify-center px-5 sm:px-0 sm:justify-start text-sm md:text-md">
                         <Link
-                            to={"./work"}
+                            to={"./MyProjects"}
                             className="text-white bg-fuchsia-700 font-sans font-bold hover:bg-fuchsia-500 transition-all ease-in-out border rounded-xl text-center px-5 py-3"
                         >
-                            My Works
+                            My Projects
                         </Link>
                         <Link
                             to={"./Achievement"}
