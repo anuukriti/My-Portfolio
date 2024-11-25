@@ -13,7 +13,7 @@ function Navbar() {
         <div className="lg:px-10 px-5 py-8 sticky bg-black  shadow-xl shadow-slate-950/40 w-full h-[50px] flex items-center ml-auto">
             <ul className="flex justify-start items-center sm:gap-10 gap-5 w-full h-full text-white">
                 <NavLink
-                    to={"./MyProjects"}
+                    to={"./Work"}
                     className={({ isActive }) =>
                         `${
                             isActive
